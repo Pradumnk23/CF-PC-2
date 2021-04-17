@@ -39,7 +39,7 @@ int main()
     fastio;
     lli k,l,m,n,d;
     cin>>k>>l>>m>>n>>d;
-    set<lli,greater<lli> >s;
+    set<lli,greater<lli> >s; // set<lli >s;
     for(lli i=k; i<=d; i+=k)
         s.insert(i);
     for(lli i=l; i<=d; i+=l)
