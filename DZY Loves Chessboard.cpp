@@ -39,11 +39,11 @@ int main()
     lli n,m;
     cin>>n>>m;
     char b[1100];
-	for(int i=0;i<n;i++){
+	for(lli i=0;i<n;i++){
 		cin>>b;
-		for(int j=0;j<m;j++){
+		for(lli j=0;j<m;j++){
 			if(b[j]=='.'){
-				if((i+j)%2 ==1) b[j]='W';
+				if((i+j)%2 ==1) b[j]='W'; // simple
 				else b[j]='B';
 			}
 		}
