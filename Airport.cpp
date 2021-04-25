@@ -48,7 +48,7 @@ int main()
     {
         s1+=a[i];
         a[i]-=1;
-        sort(a,a+m);
+        sort(a,a+m); // imp steps , sort and then price max of the array
     }
     i=0;
     while(temp--)
