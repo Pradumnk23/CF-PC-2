@@ -59,7 +59,7 @@ int main()
 
 	return 0;
 }
-/*
+/* M-2
 #include <bits/stdc++.h>
 #include <iostream>
 #include <math.h>
