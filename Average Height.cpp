@@ -47,7 +47,7 @@ int main()
         for(lli i=0; i<n; i++)
         {
             cin>>a[i];
-            if(a[i]%2==1)
+            if(a[i]%2==1) // odd
                 vo.pb(a[i]);
             else
                 ve.pb(a[i]);
