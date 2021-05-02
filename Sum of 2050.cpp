@@ -41,7 +41,7 @@ long long int solve()
 	std::cin>>n;
 	if(n%2050!=0)
 		return -1;
-	n/=2050;
+	n/=2050; // if divisible then only possible
 	while(n>0)
 	{
 		x+=(n%10);
