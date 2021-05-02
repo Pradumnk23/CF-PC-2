@@ -47,13 +47,11 @@ int main()
     sort(a,a+n);
     sort(b,b+m);
     lli ans=-1;
-    for(lli i=0; i<n; i++)
-    {
-        if(2*a[0]<b[0] && a[n-1]>=2*a[0] && a[n-1]<b[0])
+	if(2*a[0]<b[0] && a[n-1]>=2*a[0] && a[n-1]<b[0])
             ans=a[n-1];
         else if(2*a[0]<b[0] && a[n-1]<=2*a[0] && a[n-1]<b[0])
             ans=2*a[0];
-    }
+	
     cout<<ans<<endl;
     return 0;
 }
