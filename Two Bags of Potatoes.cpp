@@ -53,3 +53,15 @@ int main()
             cout<<-1;
     }
 }
+/*
+#import<iostream>
+using namespace std;
+int k,n,x,y;
+main()
+{
+	cin>>y>>k>>n;
+	x=k-y%k;
+	if(x+y>n)cout<<-1;
+	else for(;x+y<=n;x+=k)cout<<x<<' ';
+}
+*/
