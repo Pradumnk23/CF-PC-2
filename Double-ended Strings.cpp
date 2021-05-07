@@ -61,3 +61,25 @@ int main()
     }
 	return 0;
 }
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int solve(){
+   string a; cin>>a;
+   string b; cin>>b;
+   int ans=0;
+   for(int i=0;i<b.length();i++){
+      for(int j=1;j<=b.length()-i;j++){
+         int check=a.find(b.substr(i,j));
+         if(check>=0)ans=max(ans,j);
+      }
+   }
+   cout<<a.length()+b.length()-2*ans<<endl;
+}
+int main(){
+   int t; cin>>t;
+   while(t--){
+      solve();
+   }
+}
+*/
