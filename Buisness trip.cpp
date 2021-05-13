@@ -47,6 +47,7 @@ int main()
         s += a[--i];
         cnt++;
     }
-    cout<<(i==0?-1:cnt)<<endl;
+    cout<<(i==0?-1:cnt);
+    cout<<endl;
     return 0;
 }
