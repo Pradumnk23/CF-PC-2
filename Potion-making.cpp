@@ -39,8 +39,21 @@ int main()
         int k;
         cin>>k;
         int m=__gcd(100,k);
-		    cout<<100/m<<"\n";
+	cout<<100/m<<"\n";
 
     }
     return 0;
 }
+/*
+#include<bits/stdc++.h>
+using namespace std;
+long long t,k,s;
+int main(){
+    for(cin>>t;t--;){
+        cin>>k;
+        s=100;
+        while(s%k!=0)s+=100;
+        cout<<s/k<<endl;
+    }
+}
+*/
