@@ -39,7 +39,7 @@ int main()
         lli a[n];
         fn {cin>>a[i];if(a[i]<=0){cnt++;}else{minm=min(minm,a[i]);} }
         sort(a,a+n);
-        lli mindiff=INT_MAX-1;
+        lli mindiff=INT_MAX-1; // for if there is 0 case
         fn
         {
             if(i+1<n && a[i+1]<=0)
