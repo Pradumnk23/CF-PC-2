@@ -42,7 +42,7 @@ int main()
         else
         {
             cout<<(x+temp)/2<<endl;
-            temp*=-1;
+            temp*=-1 ;
         }
     }
     return 0;
